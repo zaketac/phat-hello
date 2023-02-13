@@ -91,9 +91,9 @@ mod phat_hello2 {
             // mock is needed for local test
             pink_extension_runtime::mock_ext::mock_all_ext();
 
-            let phat_hello = PhatHello::new();
-            let block = String::from("0xD0fE316B9f01A3b5fd6790F88C2D53739F80B464");
-            let res = phat_hello.get_eth_balance(block.clone());
+            let phat_hello2 = PhatHello::new();
+            let block = String::from("6571449");
+            let res = phat_hello2.get_eth_balance(block.clone());
             assert!(res.is_ok());
 
             // run with `cargo +nightly test -- --nocapture` to see the following output
