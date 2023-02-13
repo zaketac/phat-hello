@@ -2,7 +2,7 @@
 name = "phat_hello2"
 version = "0.1.0"
 authors = ["zak <zaketac@gmail.com>"]
-edition = "2023"
+edition = "2021"
 
 [dependencies]
 ink_prelude = { version = "3.3", default-features = false }
