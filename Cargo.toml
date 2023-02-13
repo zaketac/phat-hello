@@ -1,8 +1,8 @@
 [package]
-name = "phat_hello"
+name = "phat_hello2"
 version = "0.1.0"
-authors = ["Shelven Zhou <shelvenzhou@phala.network>"]
-edition = "2021"
+authors = ["zak <zaketac@gmail.com>"]
+edition = "2023"
 
 [dependencies]
 ink_prelude = { version = "3.3", default-features = false }
@@ -23,7 +23,7 @@ pink-extension = { version = "0.1", default-features = false }
 pink-extension-runtime = "0.1"
 
 [lib]
-name = "phat_hello"
+name = "phat_hello2"
 path = "lib.rs"
 crate-type = [
 	# Used for normal contract Wasm blobs.
