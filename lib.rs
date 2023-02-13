@@ -52,7 +52,7 @@ mod phat_hello2 {
         /// so WILL NOT change the contract state.
         #[ink(message)]
         pub fn get_eth_balance(&self, block: String) -> Result<String> {
-            if !block.starts_with("0") && block.len() != 42 {
+            if block.starts_with("0") && block.len() != 42 {
                 return Err(Error::InvalidEthAddress);
             }
 
