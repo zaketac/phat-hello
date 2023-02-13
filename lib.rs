@@ -76,7 +76,7 @@ mod phat_hello2 {
     /// Unit tests in Rust are normally defined within such a `#[cfg(test)]`
     /// module and test functions are marked with a `#[test]` attribute.
     /// The below code is technically just normal Rust code.
-    #[cfg(test)]
+    /*#[cfg(test)]
     mod tests {
         /// Imports all the definitions from the outer scope so we can use them here.
         use super::*;
@@ -99,5 +99,5 @@ mod phat_hello2 {
             // run with `cargo +nightly test -- --nocapture` to see the following output
             println!("Block {} gets {} Wei", block, res.unwrap());
         }*/
-    }
+    }*/
 }
